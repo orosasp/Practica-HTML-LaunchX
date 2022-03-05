@@ -1,6 +1,6 @@
 # Prácticas HTML
 
-## **Pastelería Delicius**
+## **Pastelería "Delicius"**
 
 <br>
 
@@ -23,4 +23,4 @@ Como bonus a la práctica se le agregó:
 
 - Estilos
 - Rutas (Navegación en la página)
-- Despliegue en GitHub Pages
+- Despliegue en GitHub Pages https://orosasp.github.io/Practica-HTML-LaunchX/
