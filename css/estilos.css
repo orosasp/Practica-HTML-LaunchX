@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #333333;
+}
+
+/* Estilo de header */
+.header {
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  height: inherit;
+}
+.header ol {
+  display: flex;
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+
+.container {
+  max-width: 1000px;
+  color: white;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.title {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th {
+  text-align: center;
+}
+
+table,
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+table,
+p {
+  text-align: justify;
+}
+
+table,
+td {
+  border: 1px solid;
+}
+
+td {
+  padding: 20px;
+}
+
+.tituloPastel {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.imgPastel {
+  margin: 0 auto;
+  display: flex;
+}
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+input {
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px 10px 25px;
+}
+
+.email-input {
+  background-image: url("../assets/img/envelope.svg");
+}
+
+.tel-input {
+  background-image: url("../assets/img/phone.svg");
+}
+
+.email-input,
+.tel-input {
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-contacto button {
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.form-contacto h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.mensaje-input {
+  height: 150px;
+  width: 440px;
+}
+
+.form-pedido button {
+  display: block;
+  background: white;
+  color: black;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.nombre-inputPedido {
+  width: 440px;
+}
+
+.descripcion-input {
+  height: 150px;
+  width: 440px;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

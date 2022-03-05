@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Delicius</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="./">
+                <img src="../assets/img/logo.png" height="50" alt="Logo de la pastelería" />
+            </a>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="./">Pasteles</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./datos-pastelero/datos.html">Datos Pastelero</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Ingredientes naturales de la más alta calidad</h2>
+    </div>
+    <section>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <a href="./pasteles/3LechesChocolate.html">
+                            <div class="tituloPastel">
+                                3 LECHES CHOCOLATE
+                            </div>
+                            <img class="imgPastel" src="./assets/img/ps-tres-leches-chocolate-1.jpg"
+                                alt="3 LECHES CHOCOLATE" width="250px" height="250px">
+                            <p>
+                                Pan de chocolate humedecido en licuado de tres leches de chocolate, cubierto de
+                                chantilly en
+                                sabor chocolate y adornado con fresas y nuez. Es una deliciosa y fresca opción que no te
+                                puedes perder si amas el chocolate. | $300
+                            </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./pasteles/3LechesCombinado.html">
+                            <div class="tituloPastel">3 LECHES COMBINADO</div>
+                            <img class="imgPastel" src="./assets/img/ps-tres-leches-combinado-1.jpg"
+                                alt="3 LECHES CHOCOLATE" width="250px" height="250px">
+                            <p>
+                                Está elaborado en pan de vainilla humedecido en licuado de tres leches, cubierto de
+                                crema
+                                chantilly y en la parte superior se encuentra adornado con piña y fresa… Otra deliciosa
+                                y
+                                fresca opción que no te puedes perder. | $300
+                            </p>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="./pasteles/3LechesFlan.html">
+                            <div class="tituloPastel">3 LECHES FLAN</div>
+                            <img class="imgPastel" src="./assets/img/ps-tres-leches-flan-2-1.jpg"
+                                alt="3 LECHES CHOCOLATE" width="250px" height="250px">
+                            <p>
+                                Pan de vainilla humedecido en licuado de tres leches, relleno de delicioso flan de
+                                vainilla
+                                100% casero, cubierto de chantilly con ligero sabor a rompope y decorado con nueces y
+                                una
+                                cereza al centro. Pastel para salir de lo tradicional. | $350
+                            </p>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="./pasteles/3LechesFrutas.html">
+                            <div class="tituloPastel">3 LECHES FRUTAS</div>
+                            <img class="imgPastel" src="./assets/img/ps-tres-leches-frutas-1.jpg"
+                                alt="3 LECHES CHOCOLATE" width="250px" height="250px">
+                            <p>
+                                Elaborado en pan de vainilla humedecido en licuado de tres leches, cubierto de rica
+                                crema
+                                chantilly y adornado con mango, duraznos y una fresa al centro. Esta es una deliciosa y
+                                fresca opción que no te vas a querer perder. | $320
+                            </p>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="/contacto/" id="form1" method="post" class="form-contacto">
+                <h3>Contacto</h3>
+                <input type="text" class="nombre-input" placeholder="Déjame tu nombre" id="nombre" name="nombre">
+                <input type="text" class="email-input" placeholder="Déjame tu email" id="email"
+                    name="email"><br /><br />
+                <input list="razon" placeholder="Razón">
+                <datalist id="razon">
+                    <option value="Pregunta">
+                    <option value="Solicitud">
+                    <option value="Sugerencia">
+                    <option value="Queja">
+                    <option value="Otro">
+                </datalist>
+                <br /><br />
+                <input type="text" class="mensaje-input" />
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <dl>
+                    <dt>
+                        <h3>Dirección</h3>
+                    </dt>
+                    <dd>Av. Matamoros, #23, Teopantán, Puebla</dd>
+                    <br />
+                    <dt>
+                        <h3>Teléfono</h3>
+                    </dt>
+                    <dd>2431141443</dd>
+                    <br />
+                    <dt>
+                        <h3>Horarios de atención</h3>
+                    </dt>
+                    <dd>Lunes a Viernes de 9:00 a 21:00 hrs</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <p>Práctica FrontEnd Mision LaunchX InnovaccionVirtual </p>
+            </div>
+            <div>
+                <p>
+                    Diseñado por José Oscar Rosas Pérez
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
